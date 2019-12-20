@@ -14,6 +14,10 @@ This uses:
 * [NixOps](https://nixos.org/nixops/manual/) for deployment
 * [AWS EC2](https://aws.amazon.com/ec2/) for hosting
 
+The result looks like this:
+
+![Screenshot](https://user-images.githubusercontent.com/1313787/69443895-25987480-0d04-11ea-8260-8cfd2757f219.png)
+
 ## Instructions
 
 1.  Create an AWS account
@@ -78,6 +82,6 @@ Have fun! 🙂
 
 You can also view the files split out by language:
 
-* [./split.nix](./split.nix) - Only the Nix code
-* [./Main.hs](./Main.hs) - Only the Haskell code
-* [./initialScript.sql](./initialScript.sql) - Only the SQL code
+* [`./split.nix`](./split.nix) - Only the Nix code
+* [`./Main.hs`](./Main.hs) - Only the Haskell code
+* [`./initialScript.sql`](./initialScript.sql) - Only the SQL code
